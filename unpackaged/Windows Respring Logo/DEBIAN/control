@@ -2,7 +2,7 @@ Author: Jared
 Maintainer: TheBigCheese2017
 Name: Windows Respring Logo
 Package: com.osito.winrespringlogo
-Depends: mobilesubstrate (>= 0.9.5000), com.anemonetheming.anemone
+Depends: mobilesubstrate (>= 0.9.5000), winterboard
 Section: Themes (Respring Logos)
 Version: 1.0
 Architecture: iphoneos-arm

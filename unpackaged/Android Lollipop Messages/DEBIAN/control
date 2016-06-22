@@ -2,7 +2,7 @@ Author: Jared
 Maintainer: TheBigCheese2017
 Name: Android Lollipop Messages
 Package: com.osito.lollipopmessages
-Depends: mobilesubstrate (>= 0.9.5000), com.anemonetheming.anemone
+Depends: mobilesubstrate (>= 0.9.5000), winterboard
 Section: Themes (Messages)
 Version: 1.0
 Architecture: iphoneos-arm

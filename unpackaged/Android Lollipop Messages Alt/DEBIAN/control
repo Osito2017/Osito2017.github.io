@@ -2,7 +2,7 @@ Author: Jared
 Maintainer: TheBigCheese2017
 Name: Android Lollipop Messages Alt
 Package: com.osito.lollipopmessagesalt
-Depends: mobilesubstrate (>= 0.9.5000), com.anemonetheming.anemone
+Depends: mobilesubstrate (>= 0.9.5000), winterboard
 Section: Themes (Messages)
 Version: 1.0
 Description: Better messages alt

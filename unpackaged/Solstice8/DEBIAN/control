@@ -1,6 +1,6 @@
 Name: Solstice8
 Package: com.osito.solstice8
-Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), com.anemonetheming.anemone
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), winterboard
 Version: 1.0
 Architecture: iphoneos-arm
 Description: A free theme
