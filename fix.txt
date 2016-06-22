@@ -1,0 +1,10 @@
+total 36
+-rwxrwxr-x  1 jared jared   64 Jun  6 19:20 collection.sh
+-rw-r--r--  1 jared jared 3578 Jun  4 04:05 CydiaIcon.png
+drwxrwxr-x  2 jared jared 4096 Jun 21 12:21 debs
+-rw-rw-r--  1 jared jared    0 Jun 21 12:23 fix.txt
+-rwxrwxr-x  1 jared jared 2884 Jun 19 21:00 l.sh
+-rw-rw-r--  1 jared jared 7743 Jun 21 12:21 Packages.bz2
+-rw-rw-r--  1 jared jared 1156 Jun 15 23:02 README.md
+-rw-r--r--  1 jared jared  175 Jun  4 04:06 Release
+drwxrwxr-x 44 jared jared 4096 Jun 21 12:21 unpackaged

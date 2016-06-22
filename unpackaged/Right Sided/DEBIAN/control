@@ -1,0 +1,13 @@
+Name: Right Sided
+Package: com.osito.rightsided
+Priority: optional
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), com.fidele007.hotdog, com.alcovedevteam.fuse
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Everything to the right 
+Maintainer: TheBigCheese2017
+Author: Osito
+Section: Themes (Lockscreen Setup)
+Replaces: com.osito.leftsided, com.osito.stairs, com.osito.corneredgeo, com.osito.rightsidedgeo, com.osito.cataracs, com.osito.cornered, com.osito.fused, com.osito.i9setupfori8, com.osito.clearall, com.osito.sandy, com.osito.japwild
+Conflicts: com.osito.leftsided, com.osito.stairs, com.osito.corneredgeo, com.osito.rightsidedgeo, com.osito.cataracs, com.osito.cornered, com.osito.fused, com.osito.i9setupfori8, com.osito.clearall, com.osito.sandy, com.osito.japwild
+Provides: com.osito.leftsided, com.osito.stairs, com.osito.corneredgeo, com.osito.rightsidedgeo, com.osito.cataracs, com.osito.cornered, com.osito.fused, com.osito.i9setupfori8, com.osito.clearall, com.osito.sandy, com.osito.japwild

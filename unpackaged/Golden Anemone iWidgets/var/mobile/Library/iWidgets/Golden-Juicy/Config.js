@@ -1,0 +1,9 @@
+var Clock = "24h"; // choose between "12h" or "24h"
+var lang = "en"; // (fr) for french, (de) for german, (sp) for spanish, (it) for italian, (en) for english
+var gps = true; // Requires MyLocation app
+var locale = 2381475; // Yahoo Weather (used if gps set to false or myLocation.txt file not found)
+var tempUnit = "f"; // f for fahrenheit
+var iconSet = "stardock"; // add your own set
+var updateInterval = 60; // in minutes
+var UseCityGPS = false; // If your city is innacurate with Yahoo, you can try to use the GPS localization (if available).
+var UseNeighborhood = false; // If your city is inaccurate with GPS localization, you can try to use the neighborhood (or state).

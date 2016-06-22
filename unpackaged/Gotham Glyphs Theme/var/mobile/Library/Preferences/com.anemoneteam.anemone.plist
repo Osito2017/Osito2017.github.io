@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Blurred Dock Reflections</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>Default Dock</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>Dock Reflections</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>Lancer - Bottom</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>Lancer - Top</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>No Blurred Dock Reflections</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>No Dock Reflections</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>Saber - Bottom</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>Saber - Top</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

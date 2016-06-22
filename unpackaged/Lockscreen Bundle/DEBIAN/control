@@ -1,0 +1,9 @@
+Author: Osito
+Maintainer: TheBigCheese2017
+Name: Lockscreen Bundle
+Package: com.osito.lockscreenbundle
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.alcovedevteam.fuse, com.fidele007.hotdog, com.thomasfinch.priorityhub, com.optimo.20secondlockscreen, com.cpdigitaldarkroom.pressunlock, com.newjoy.sleekcode, com.expetelek.simplepasscodebuttons, com.arx.instanttouchid, com.osito.gothamglyphscc
+Section: Tweaks
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Compiled list of favorite jailbreak tweaks for the lockscreen. Just add more when you find more.

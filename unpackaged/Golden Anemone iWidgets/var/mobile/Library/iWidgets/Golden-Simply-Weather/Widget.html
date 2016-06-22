@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+
+<head>
+<link rel="stylesheet" href="Style/Style.css" type="text/css" media="screen"/>
+<script type="text/javascript" charset="utf-8" src="Scripts/jquery.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="Config.js"></script>
+<script type="text/javascript" charset="utf-8" src="Scripts/translation.js"></script>
+<script type="text/javascript" charset="utf-8" src="Scripts/main.js"></script>
+</head>
+
+<body bgcolor="Transparent" onload="init()">
+
+<img id="Layer" src="Images/Layer.png"/>
+
+<div id="DigitalClock">
+	<table border="0" cellpadding="2" cellspacing="0" align="center">
+		<tr align="center"><td id="clock" rowspan="1" valign="middle"></td></tr>
+	</table>
+</div>
+
+<div id="AnalogClock">
+	<div id="ClockFace"></div>
+	<div id="ClockGlossy"></div>
+	<div id="hourhand"></div>
+	<div id="minhand"></div>
+	<div id="sechand"></div>
+	<div id="node"></div>
+</div>
+
+<div id="Gears">
+	<div id="GearsBG"></div>
+		<div id="GearsMask">
+			<div id="GearsContainer">
+				<div id="Gears1"></div>
+				<div id="Gears2"></div>
+				<div id="Gears3"></div>	
+				<div id="Gears4"></div>
+				<div id="Gears5"></div>
+			</div>	
+		</div>
+</div>
+
+<div id="date"></div>
+  
+<div id="city"></div>
+<div id="extraLocCity"></div>
+<div id="neighborhood"></div>
+<div id="county"></div>
+<div id="state"></div>
+<div id="country"></div>
+<div id="temp"></div>
+<div id="RealFeel"></div>
+<div id="highlowtemp"></div>
+<div id="desc"></div>
+<img id="Day0Icon" src="Icon Sets/blank.png"/>
+<div id="lastupdate"></div>
+<div id="xmlupdate"></div>
+<img id="MoonIcon" src="Icon Sets/blank.png"/>
+     <div id="moonphase"></div>
+     <div id="sunrise"></div>
+     <div id="sunset"></div>
+     <div id="woeid"></div>
+     <div id="zip"></div>
+
+<div id="ExtendedInfo">
+	<div id="visibility"></div>
+	<div id="humidity"></div>
+	<div id="pressure"></div>
+	<div id="rising"></div>
+	<div id="wind"></div>
+	<div id="direction"></div>
+</div>
+
+	<div id="forecast">
+	<table border="0" cellpadding="0" cellspacing="0" align="center">
+		<tr align="center"><td><img id="Day1Icon" src="Icon Sets/blank.png"/></td><td><img id="Day2Icon" src="Icon Sets/blank.png"/></td><td><img id="Day3Icon" src="Icon Sets/blank.png"/></td><td><img id="Day4Icon" src="Icon Sets/blank.png"/></td><td><img id="Day5Icon" src="Icon Sets/blank.png"/></td></tr>
+		<tr align="center"><td id="Day1"></td><td id="Day2"></td><td id="Day3"></td><td id="Day4"></td><td id="Day5"></td></tr>
+		<tr align="center"><td id="Day1HiLo"></td><td id="Day2HiLo"></td><td id="Day3HiLo"></td><td id="Day4HiLo"></td><td id="Day5HiLo"></td></tr>
+	</table>
+</div>
+
+<div id="hourlyFirst6">
+	<table border="0" cellpadding="0" cellspacing="0" align="center">
+		<tr align="center"><td><img id="Hicon1" src="Icon Sets/blank.png"/></td><td><img id="Hicon2" src="Icon Sets/blank.png"/></td><td><img id="Hicon3" src="Icon Sets/blank.png"/></td><td><img id="Hicon4" src="Icon Sets/blank.png"/></td><td><img id="Hicon5" src="Icon Sets/blank.png"/></td><td><img id="Hicon6" src="Icon Sets/blank.png"/></td></tr>
+		<tr align="center"><td id="Hour1"></td><td id="Hour2"></td><td id="Hour3"></td><td id="Hour4"></td><td id="Hour5"></td><td id="Hour6"></td></tr>
+		<tr align="center"><td id="Hpop1"></td><td id="Hpop2"></td><td id="Hpop3"></td><td id="Hpop4"></td><td id="Hpop5"></td><td id="Hpop6"></td></tr>
+		<tr align="center"><td id="Htemp1"></td><td id="Htemp2"></td><td id="Htemp3"></td><td id="Htemp4"></td><td id="Htemp5"></td><td id="Htemp6"></td></tr>
+	</table>
+</div>
+
+<div id="hourlyLast6">
+	<table border="0" cellpadding="0" cellspacing="0" align="center">
+		<tr align="center"><td><img id="Hicon7" src="Icon Sets/blank.png"/></td><td><img id="Hicon8" src="Icon Sets/blank.png"/></td><td><img id="Hicon9" src="Icon Sets/blank.png"/></td><td><img id="Hicon10" src="Icon Sets/blank.png"/></td><td><img id="Hicon11" src="Icon Sets/blank.png"/></td><td><img id="Hicon12" src="Icon Sets/blank.png"/></td></tr>
+		<tr align="center"><td id="Hour7"></td><td id="Hour8"></td><td id="Hour9"></td><td id="Hour10"></td><td id="Hour11"></td><td id="Hour12"></td></tr>
+		<tr align="center"><td id="Hpop7"></td><td id="Hpop8"></td><td id="Hpop9"></td><td id="Hpop10"></td><td id="Hpop11"></td><td id="Hpop12"></td></tr>
+		<tr align="center"><td id="Htemp7"></td><td id="Htemp8"></td><td id="Htemp9"></td><td id="Htemp10"></td><td id="Htemp11"></td><td id="Htemp12"></td></tr>
+	</table>
+</div>
+
+</body>
+</html>

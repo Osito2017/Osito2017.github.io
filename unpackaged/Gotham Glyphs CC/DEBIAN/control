@@ -1,0 +1,9 @@
+Name: Gotham Glyphs CC
+Package: com.osito.gothamglyphscc
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), com.anemonetheming.anemone
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Gotham Glyphs Media Controls System Wide
+Maintainer: TheBigCheese2017
+Author: Osito 
+Section: Themes (Media Controls && CC)

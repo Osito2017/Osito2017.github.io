@@ -1,0 +1,9 @@
+Package: com.osito.kitkatbattery
+Name: KitKat Battery for Alkaline
+Version: 1.0
+Architecture: iphoneos-arm
+Author: Osito
+Depends: mobilesubstrate (>= 0.9.5000), com.fortysixandtwo.alkaline  
+Description: A beautiful battery icon
+Maintainer: TheBigCheese2017
+Section: Themes (Battery)

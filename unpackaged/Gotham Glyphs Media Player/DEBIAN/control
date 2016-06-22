@@ -1,0 +1,14 @@
+Author: Jared
+Maintainer: TheBigCheese2017
+Name: Gotham Glyphs Media Player
+Package: com.osito.ggmediaplayer
+Depends: mobilesubstrate (>= 0.9.5000), winterboard
+Section: Themes (Media Controls)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Redesigned Media Controls
+
+
+
+
+

@@ -1,0 +1,15 @@
+Package: com.gnos.bloard
+Name: Bloard
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Version: 0.1.2-1
+Architecture: iphoneos-arm
+Description: Universal dark keyboard for iOS 7/8
+Maintainer: thebigboss.org <http://thebigboss.org>
+Author: GN-OS <techboy6601@gmail.com>
+Section: Tweaks
+Tag: purpose::extension, compatible::ios7, compatible::ios8
+Installed-Size: 313
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bloardDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bloardDp
+dev: gnos
+Icon: file:///Library/PreferenceBundles/BloardPreferences.bundle/bloard@2x.png

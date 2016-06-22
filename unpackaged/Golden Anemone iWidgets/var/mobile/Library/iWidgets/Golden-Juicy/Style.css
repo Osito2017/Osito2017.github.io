@@ -1,0 +1,99 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Default1;
+	color:#f1d984;
+	//font-weight:300;
+	text-shadow: 0px 1px 1px #222;
+}
+
+
+
+@font-face {
+
+	font-family: Default1;
+
+	src: url(Fonts/Roboto-Light.ttf);
+
+}
+
+
+
+@font-face {
+
+	font-family: Default2;
+
+	src: url(Fonts/Roboto-Thin.ttf);
+
+}
+
+
+#Clock{
+       position:absolute; top:9px; left:12px; width:320px; height:50px; text-align:left; z-index:50;
+       font-size:34px;
+       font-weight:300;
+     
+
+}
+
+
+#hour{display:normal;}
+#dot{display:normal;}
+#minute{display:normal;}
+
+
+#Calendar{
+       position:absolute; top:29px; left:105px; width:320px; height:50px; text-align:left; z-index:50;
+       font-size:13px;
+	      
+}
+
+#month{display:none;}
+#weekday{display:normal;}
+#space{display:normal;}
+#date{display:normal;}
+
+
+#weatherIcon{display:none; position:absolute; top:28px; left:188px; width:40px; z-index:50;}
+
+#Weather{
+       position:absolute; top:51.5px; left:20px; width:320px; height:50px; text-align:left; z-index:50;
+       font-size:13px;
+}
+
+#temp{display:normal; font-size:24px;}
+#slash1{display:normal;}
+#desc{display:normal;}
+
+#cityname{
+       position:absolute; top:29px; left:105px; width:320px; height:50px; text-align:left; z-index:50;
+       font-size:13px;
+       display:none;
+}
+
+
+#hightemp{
+       position:absolute; top:64px; left:-34px; width:320px; height:50px; text-align:right; z-index:-98;
+       font-size:12px;
+       display:normal;
+       
+}
+#slash2{position:absolute; top:64px; left:289px; width:320px; height:50px; text-align:left; z-index:-98;
+       font-size:12px;
+       display:normal;
+}
+
+
+#lowtemp{
+       position:absolute; top:64px; left:299px; width:320px; height:50px; text-align:left; z-index:-98;
+       font-size:12px;
+       opacity:0.6;
+       display:normal;
+       
+}
+
+
+
+
+
+

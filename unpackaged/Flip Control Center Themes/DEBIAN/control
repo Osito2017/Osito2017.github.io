@@ -1,0 +1,14 @@
+Author: Jared
+Maintainer: TheBigCheese2017
+Name: Flip Control Center Themes
+Package: com.osito.FCC
+Depends: mobilesubstrate (>= 0.9.5000), winterboard
+Section: Themes (FCC)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Cool Stuff. IDK what this does 
+
+
+
+
+

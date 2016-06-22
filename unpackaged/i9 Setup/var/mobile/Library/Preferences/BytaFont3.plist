@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BytaFontBackupVersion</key>
+	<string>9.0.2</string>
+	<key>GoTo</key>
+	<array>
+		<string>www.google.com/fonts</string>
+	</array>
+	<key>SwapModeConfig</key>
+	<array>
+		<string>Geo Sans Light</string>
+		<string>Geo Sans Light</string>
+		<string>Geo Sans Light</string>
+		<string>BytaFont Backup</string>
+		<string>BytaFont Backup</string>
+		<string>BytaFont Backup</string>
+		<string>BytaFont Backup</string>
+		<string>BytaFont Backup</string>
+		<string>BytaFont Backup</string>
+		<string>BytaFont Backup</string>
+		<string>BytaFont Backup</string>
+	</array>
+	<key>TweakModeAutoPairOnly</key>
+	<true/>
+	<key>WeatherAppPath</key>
+	<string></string>
+</dict>
+</plist>

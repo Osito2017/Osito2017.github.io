@@ -1,0 +1,9 @@
+Name: Binary Keypad
+Package: com.osito.binarykeypad
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), winterboard
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Confuse the hell out of your friends
+Maintainer: TheBigCheese2017
+Author: Osito 
+Section: Themes (Passcode)

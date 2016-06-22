@@ -1,0 +1,12 @@
+Author: Osito
+Maintainer: TheBigCheese2017
+Name: Left Sided
+Package: com.osito.leftsided
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.alcovedevteam.fuse, com.fidele007.hotdog
+Section: Themes (Lockscreen Setup)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Check the screenshots
+Replaces: com.osito.rightsided, com.osito.stairs, com.osito.corneredgeo, com.osito.rightsidedgeo, com.osito.cataracs, com.osito.cornered, com.osito.fused, com.osito.i9setupfori8, com.osito.clearall, com.osito.sandy, com.osito.japwild
+Conflicts: com.osito.rightsided, com.osito.stairs, com.osito.corneredgeo, com.osito.rightsidedgeo, com.osito.cataracs, com.osito.cornered, com.osito.fused, com.osito.i9setupfori8, com.osito.clearall, com.osito.sandy, com.osito.japwild
+Provides: com.osito.rightsided, com.osito.stairs, com.osito.corneredgeo, com.osito.rightsidedgeo, com.osito.cataracs, com.osito.cornered, com.osito.fused, com.osito.i9setupfori8, com.osito.clearall, com.osito.sandy, com.osito.japwild

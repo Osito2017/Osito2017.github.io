@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = Corners;
+	cell = PSLinkCell;
+	detail = CornersListController;
+	icon = Corners.png;
+	isController = 1;
+	label = Corners;
+    };
+}

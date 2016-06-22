@@ -1,0 +1,9 @@
+Author: Osito
+Maintainer: TheBigCheese2017
+Name: Messages Bundle
+Package: com.osito.messagesbundle
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.osito.lollipopmessages, me.chewitt.cmc, com.cpdigitaldarkroom.ckcounter
+Section: Tweaks
+Version: 1.0
+Architecture: iphoneos-arm
+Description: A compilation of some must have messages customizations

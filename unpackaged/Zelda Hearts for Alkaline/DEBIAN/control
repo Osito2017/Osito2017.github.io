@@ -1,0 +1,12 @@
+Package: com.modmyi.zeldaheartsforalkaline
+Name: Zelda Hearts for Alkaline
+Version: 1.0
+Architecture: iphoneos-arm
+Author: alextmoore <alextmoore@icloud.com>
+Depends: com.fortysixandtwo.alkaline
+Depiction: http://modmyi.com/info/zeldaheartsforalkaline.d.php
+Description: Zelda Hearts for Alkaline
+Homepage: http://modmyi.com/info/zeldaheartsforalkaline.php
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Section: Themes (Alkaline)
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>

@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = hidelabels;
+	cell = PSLinkCell;
+	detail = hidelabelsListController;
+	icon = hidelabels.png;
+	isController = 1;
+	label = "Hide Labels";
+    };
+}

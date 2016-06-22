@@ -1,0 +1,12 @@
+Package: com.osito.i9setupfori8
+Name: i9 Setup for i8
+Version: 1.0
+Architecture: iphoneos-arm
+Author: Osito
+Depends: firmware (>=8.0), mobilesubstrate (>= 0.9.5000), winterboard, com.fidele007.hotdog, com.phoenix.bars, com.modmyi.kitkatbattery, com.alcovedevteam.fuse, com.cpdigitaldarkroom.cornered, com.cpdigitaldarkroom.ensemble, com.modmyi.androidlollipopmessages, com.optimo.20secondlockscreen, applist, info.rpdev.betterfiveicondock, com.gnos.bloard, com.noeliel.cheesecake, com.bytafont2.geosanslight, me.qusic.couriaios8, com.r333d.cylinder, org.thebigboss.emoji83plus, com.modmyi.emojiios91backupd, com.cpdigitaldarkroom.hideme8-lite, org.herf.flux, com.arx.instanttouchid, com.cabralcole.invertrespring, org.mustafaa.keyshortcut, com.xtm3x.bingbong, ws.hbang.libopener, com.kyewei.musicscroller, net.angelxwind.noplsrecovery, com.marcosinghof.noslowanimations, com.thomasfinch.priorityhub, com.arx.roundedmusic, com.gsquared.senddelay, org.thebigboss.smoothcursor, com.iky1e.swipeselection, com.alexzielenski.tinybar, com.saurik.impactor, com.alexzielenski.zeppelin, libactivator, ws.hbang.typestatus2, com.dantesieg.rubik
+Description: Inspired by my beautiful mind 
+Maintainer: TheBigCheese2017
+Section: Themes (Entire Device)
+Conflicts: com.osito.fused, com.osito.leftsided, com.osito.rightsided, com.osito.rightsidedgeo, com.osito.cornered, com.osito.corneredgeo, com.osito.stairs, com.osito.sandy
+Provides: com.osito.fused, com.osito.leftsided, com.osito.rightsided, com.osito.rightsidedgeo, com.osito.cornered, com.osito.corneredgeo, com.osito.stairs, com.osito.sandy
+Replaces: com.osito.fused, com.osito.leftsided, com.osito.rightsided, com.osito.rightsidedgeo, com.osito.cornered, com.osito.corneredgeo, com.osito.stairs, com.osito.sandy

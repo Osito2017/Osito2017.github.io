@@ -1,0 +1,9 @@
+Package: com.osito.goldenanemoneiwidgets
+Name: Golden Anemone iWidgets
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: winterboard
+Description: The design gold for all.
+Maintainer: TheBigCheese2017
+Author: S1lex
+Section: Themes (Widgets)

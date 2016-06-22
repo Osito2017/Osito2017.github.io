@@ -1,0 +1,12 @@
+Name: Cataracs Setup
+Package: com.osito.cataracssetup
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.osito.cataracstheme, com.evilgoldfish.lockglyph, com.bytafont2.architectsdaughter, com.modmyi.zeldaheartsforalkaline ,com.bytafont.bytafont2
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Check the screenshots.
+Maintainer: TheBigCheese2017
+Author: Osito
+Section: Themes (Lockscreen Setup)
+Replaces: com.osito.rightsided, com.osito.stairs, com.osito.corneredgeo, com.osito.rightsidedgeo, com.osito.cataracs, com.osito.cornered, com.osito.fused, com.osito.i9setupfori8, com.osito.clearall, com.osito.leftsided, com.osito.sandy
+Conflicts: com.osito.rightsided, com.osito.stairs, com.osito.corneredgeo, com.osito.rightsidedgeo, com.osito.cataracs, com.osito.cornered, com.osito.fused, com.osito.i9setupfori8, com.osito.clearall, com.osito.leftsided, com.osito.sandy
+Provides: com.osito.rightsided, com.osito.stairs, com.osito.corneredgeo, com.osito.rightsidedgeo, com.osito.cataracs, com.osito.cornered, com.osito.fused, com.osito.i9setupfori8, com.osito.clearall, com.osito.leftsided, com.osito.sandy

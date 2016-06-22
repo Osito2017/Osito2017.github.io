@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMD Respring Logo</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>Android Lollipop Messages</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>Android Messages Alt</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>Blurred Dock Reflections</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>Cataracs 2</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>Default Dock</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>Dock Reflections</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>FlipControlCenter Circled</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>FlipControlCenter Stately</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>FlipSwitch Flashlight</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>Gotham Glyphs Media Player UI</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>Lotus Apps</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>Lotus Icon Effect</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>Lotus calendar</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>LotusMask</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>No Blurred Dock Reflections</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>No Dock Reflections</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>Windows Respring Logo</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

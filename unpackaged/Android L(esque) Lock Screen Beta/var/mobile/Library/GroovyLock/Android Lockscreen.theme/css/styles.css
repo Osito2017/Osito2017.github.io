@@ -1,0 +1,196 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url(Lato-Hairline.ttf);
+}
+
+body{
+	position: absolute;
+	width: 100%; height: 100%;
+}
+
+#clockContainer{
+	margin-top: 4.6em;
+}
+
+#clockContainer, #dateContainer{
+	position: relative;
+	width: 100%;
+	height: 1.5em;
+	text-align: center;
+	color: white;
+}
+
+#clock{
+	font-size: 4.3em;
+	font-family: lato;
+}
+
+#date{
+	font-size: 1.2em;
+	margin-top: 3.2em;
+}
+
+#date > span{font-weight: 900;}
+
+#batteryInfoContainer{
+	margin-left: 2em;
+	color: white;
+	font-size: 1.5em;
+	margin-top: 1em;
+	opacity: 1;
+}
+
+li{
+	list-style: none;
+	display: inline;
+}
+
+#batteryIcon{
+	position: absolute;
+	width: 0.75em; height: 1.25em;
+}
+
+#batteryIcon > img{
+	width: 0.75em; height: 1.25em;
+}
+
+#batteryInfo{
+margin-left: 1.5em; 
+
+}
+
+/* Weather */
+
+@font-face {
+    font-family: 'weather';
+    src: url(artill_clean_icons-webfont.woff);
+    src: url(artill_clean_icons-webfont.eot);
+    src: url(artill_clean_icons-webfont.ttf);
+	
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+html {
+  width: 100%;
+  height: 100%;
+
+}
+
+body {
+  font: 1em 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+
+
+i {
+  color: #fff;
+  font-family: weather;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.5em;
+}
+
+.icon-0:before { content: ":"; }
+.icon-1:before { content: "p"; }
+.icon-2:before { content: "S"; }
+.icon-3:before { content: "Q"; }
+.icon-4:before { content: "S"; }
+.icon-5:before { content: "W"; }
+.icon-6:before { content: "W"; }
+.icon-7:before { content: "W"; }
+.icon-8:before { content: "W"; }
+.icon-9:before { content: "I"; }
+.icon-10:before { content: "W"; }
+.icon-11:before { content: "I"; }
+.icon-12:before { content: "I"; }
+.icon-13:before { content: "I"; }
+.icon-14:before { content: "I"; }
+.icon-15:before { content: "W"; }
+.icon-16:before { content: "I"; }
+.icon-17:before { content: "W"; }
+.icon-18:before { content: "U"; }
+.icon-19:before { content: "Z"; }
+.icon-20:before { content: "Z"; }
+.icon-21:before { content: "Z"; }
+.icon-22:before { content: "Z"; }
+.icon-23:before { content: "Z"; }
+.icon-24:before { content: "E"; }
+.icon-25:before { content: "E"; }
+.icon-26:before { content: "3"; }
+.icon-27:before { content: "a"; }
+.icon-28:before { content: "A"; }
+.icon-29:before { content: "a"; }
+.icon-30:before { content: "A"; }
+.icon-31:before { content: "6"; }
+.icon-32:before { content: "1"; }
+.icon-33:before { content: "6"; }
+.icon-34:before { content: "1"; }
+.icon-35:before { content: "W"; }
+.icon-36:before { content: "1"; }
+.icon-37:before { content: "S"; }
+.icon-38:before { content: "S"; }
+.icon-39:before { content: "S"; }
+.icon-40:before { content: "M"; }
+.icon-41:before { content: "W"; }
+.icon-42:before { content: "I"; }
+.icon-43:before { content: "W"; }
+.icon-44:before { content: "a"; }
+.icon-45:before { content: "S"; }
+.icon-46:before { content: "U"; }
+.icon-47:before { content: "S"; }
+
+#weather h2 {
+  color: #000;
+}
+
+#weather li {
+  display: inline-block;
+}
+
+#sep{
+	position: relative; margin-left: 4em;
+}
+
+
+#weatherContainer{
+	color:white;
+	margin-left: 2.75em;
+	margin-top: 1em;
+	opacity: 1;
+}
+
+
+.icon, .currently {
+	font-size: 1.4em;
+}
+
+#temp{
+	font-size: 1.4em;
+	margin-right: 0.5em;
+	margin-left: 0.4em; 
+}
+
+
+
+#city, #hilo{
+	margin-left: 2.6em;
+	font-size: 1.1em;
+}
+#country{
+	font-size: 1.1em;
+	margin-left: 0.3em;
+}
+
+.hide{
+	display: none;
+}

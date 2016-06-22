@@ -1,0 +1,9 @@
+Package: com.osito.geosanslightfont
+Name: Geo Sans Light Font
+Version: 1.0
+Architecture: iphoneos-arm
+Author: Osito
+Depends: com.bytafont.bytafont3
+Description: A wonderfully beautiful font  
+Maintainer: TheBigCheese2017
+Section: Fonts

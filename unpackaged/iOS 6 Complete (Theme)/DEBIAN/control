@@ -1,0 +1,9 @@
+Name: iOS 6 Complete (Theme)
+Package: com.osito.i6completetheme
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), winterboard
+Version: 1.0
+Architecture: iphoneos-arm
+Description: iOS 6 Completed theme look. Check the folder called Classic Crap to make the full iOS 6 look and feel.
+Maintainer: TheBigCheese2017
+Author: Osito
+Section: Themes

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>arrow</key>
+	<true/>
+	<key>connectTab</key>
+	<true/>
+	<key>mini</key>
+	<false/>
+	<key>npStatus</key>
+	<true/>
+	<key>radioTab</key>
+	<true/>
+	<key>rotate</key>
+	<false/>
+	<key>wide</key>
+	<false/>
+</dict>
+</plist>

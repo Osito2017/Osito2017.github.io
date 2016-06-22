@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'FuturaO';
+    src: url('Fonts/Futura Oblique.ttf');
+}
+html{
+	position: relative;
+	letter-spacing: 20px;
+}
+body{
+	position: relative;
+	text-align: center;
+	font-family: 'FuturaO';
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: white;
+}
+#box{
+	margin: -25px;
+	margin-left: 7%;
+	margin-right: 7%;
+	position: inherit;
+	font-size: 10px;
+	background-color: rgba(0, 0, 0, 0.15);
+}
+#time{
+	font-size: 30px;
+	letter-spacing: 12px;
+}

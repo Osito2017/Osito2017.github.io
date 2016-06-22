@@ -1,0 +1,11 @@
+Author: Osito
+Maintainer: TheBigCheese2017
+Name: Clear All
+Package: com.osito.clearall
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Check the screenshots
+Replaces: com.osito2017.rightsided, com.osito.stairs, com.osito.corneredgeo, com.osito.rightsidedgeo, com.osito.cataracs, com.osito.cornered, com.osito.fused, com.osito.i9setupfori8, com.osito.leftsided, com.osito.sandy
+Conflicts: com.osito2017.rightsided, com.osito.stairs, com.osito.corneredgeo, com.osito.rightsidedgeo, com.osito.cataracs, com.osito.cornered, com.osito.fused, com.osito.i9setupfori8, com.osito.leftsided, com.osito.sandy
+Provides: com.osito2017.rightsided, com.osito.stairs, com.osito.corneredgeo, com.osito.rightsidedgeo, com.osito.cataracs, com.osito.cornered, com.osito.fused, com.osito.i9setupfori8, com.osito.leftsided, com.osito.sandy

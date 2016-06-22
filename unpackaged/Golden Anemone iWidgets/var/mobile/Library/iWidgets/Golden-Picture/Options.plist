@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array> 
+
+			
+	<dict>
+			<key>name</key>
+	<string>UseExtraLocation</string>
+			<key>type</key>
+			<string>select</string>
+			<key>label</key>
+	<string>City GPS Options</string>
+			<key>default</key>
+			<string>default</string>
+			<key>options</key>
+		 <dict>
+			<key>default</key>
+			<string>default</string>
+			<key>city</key>
+			<string>city</string>
+			<key>neighborhood</key>
+			<string>neighborhood</string>
+		</dict>
+		</dict>
+		 <dict>
+		<key>default</key>
+		<string>English</string>
+		<key>label</key>
+		<string>Language</string>
+		<key>name</key>
+		<string>lang</string>
+		<key>options</key>
+		<dict>
+		 <key>English</key>
+		 <string>en</string>
+		 <key>Russian</key>
+		 <string>ru</string>
+		 <key>French</key>
+		 <string>fr</string>
+		 <key>German</key>
+		 <string>ge</string>
+		 <key>Italian</key>
+		 <string>it</string>
+		 <key>Spanish</key>
+		 <string>sp</string>
+		 <key>Finish</key>
+		 <string>fi</string>
+		 <key>Dutch</key>
+		 <string>nl</string>
+		 <key>Chinese</key>
+		 <string>cn</string>
+		</dict>
+		<key>type</key>
+		<string>select</string>
+	</dict>
+
+</array>
+</plist>

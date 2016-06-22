@@ -1,0 +1,13 @@
+Name: Cornered (Geo Sans Light Edition)
+Package: com.osito.corneredgeo
+Priority: optional
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), com.fidele007.hotdog, com.alcovedevteam.fuse
+Architecture: iphoneos-arm
+Description: Put those things on the side for Geo Sans :p Be sure to have that font installed!!!!
+Maintainer: TheBigCheese2017
+Author: Osito
+Section: Themes (Lockscreen Setup)
+Provides: com.osito.leftsided, com.osito.rightsided, com.osito.stairs, com.osito.rightsidedgeo, com.osito.cataracs, com.osito.i9setupfori8, com.osito.fused, com.osito.sandy
+Conflicts: com.osito.leftsided, com.osito.rightsided, com.osito.stairs, com.osito.rightsidedgeo, com.osito.cataracs, com.osito.i9setupfori8, com.osito.fused, com.osito.sandy
+Replaces: com.osito.leftsided, com.osito.rightsided, com.osito.stairs, com.osito.rightsidedgeo, com.osito.cataracs, com.osito.i9setupfori8, com.osito.fused, com.osito.sandy
+Version: 1.0

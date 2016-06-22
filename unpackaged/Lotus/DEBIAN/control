@@ -1,0 +1,14 @@
+Author: Jared
+Maintainer: TheBigCheese2017
+Name: Lotus
+Package: com.osito.lotus
+Depends: mobilesubstrate (>= 0.9.5000), winterboard, pincrush, applist
+Section: Themes
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Best Theme out there. Hands down
+
+
+
+
+

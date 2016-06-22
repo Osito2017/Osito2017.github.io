@@ -1,0 +1,3 @@
+echo Check out messages customiser before you proceed, the setup may look stupid. Yay, that was English....
+echo Also, the homescreen widget works with GroovyLock sooo....find out how to make it work with Cydget eventually
+killall -9 backboardd

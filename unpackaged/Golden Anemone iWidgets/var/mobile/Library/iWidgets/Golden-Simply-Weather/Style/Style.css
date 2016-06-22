@@ -1,0 +1,726 @@
+body {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+}
+
+@font-face {
+    font-family: 'Digital';
+    src: url('./digital-7.ttf');
+}
+
+#Layer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 320px;
+	z-index: -10;
+	-webkit-animation: fadein 2s linear 1 normal;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#Wallpaper {
+	position: absolute;
+	background-color:transparent;
+	top: 0px;
+	left: 0px;
+	width: 320px;
+	z-index: -12;
+	-webkit-animation: fadein 2s linear 1 normal;
+	-webkit-animation-fill-mode: forwards;
+}
+
+
+#city {
+	position:absolute;
+	top:90px;
+	left: -27px;
+	height:30px;
+	width: 120px;
+	text-align:center; 
+	font-size:12px;
+	color: #f3cf6f;
+	text-shadow: black 2px 2px 2px;
+	opacity:1.0;
+	-webkit-transform : rotate(-90deg);
+}
+
+#extraLocCity {
+	position:absolute;
+	top:42px;
+	left: 32px;
+	width:320px;
+	height:32px;
+	text-align:left;
+	font-weight: normal; 
+	font-size:12px;
+	color: Red;
+	text-shadow: 0px 2px 2px #000;
+}
+
+#neighborhood {
+	position:absolute;
+	top:52px;
+	left: 32px;
+	width:320px;
+	height:32px;
+	text-align:left;
+	font-weight: normal; 
+	font-size:10px;
+	color: white;
+	display:none;
+	text-shadow: 0px 2px 2px #000;
+}
+
+#county {
+	position:absolute;
+	top:61px;
+	left: 32px;
+	width:320px;
+	height:32px;
+	text-align:left;
+	font-weight: normal; 
+	font-size:10px;
+	color: white;
+	display:none;
+	text-shadow: 0px 2px 2px #000;
+}
+
+#state {
+	position:absolute;
+	top:71px;
+	left: 32px;
+	width:320px;
+	height:32px;
+	text-align:left;
+	font-weight: normal; 
+	font-size:10px;
+	color: white;
+	display:none;
+	text-shadow: 0px 2px 2px #000;
+}
+
+#country {
+	position:absolute; 
+	top:63px;
+	left: -32px;
+	width:320px; 
+	height:20px; 
+	text-align:right; 
+	z-index:90;
+	font-weight: normal; 
+	font-size:12px;
+	color: white;
+	text-shadow: 0px 2px 2px #000;
+	text-transform:uppercase;
+	display:none;
+}
+
+#temp {
+	position:absolute; 
+	top:107px;
+	left: 125px;
+	width:320px; 
+	height:100px; 
+	text-align:center; 
+	z-index:90;
+	font-size:15px;
+	color: #f3cf6f;
+	text-shadow: black 2px 2px 2px;
+	opacity:1.0;
+}
+
+#RealFeel {
+	position:absolute; 
+	top:40px;
+	left: 32px;
+	width:320px; 
+	height:100px; 
+	text-align:right; 
+	z-index:90;
+	font-weight:normal; 
+	font-size:10px;
+	color: white;
+	text-shadow: 0px 2px 2px #000;
+	display:none;
+}
+
+#highlowtemp {
+	position:absolute; 
+	top:128px;
+	left: -45px;
+	width:320px; 
+	height:20px; 
+	text-align:right; 
+	z-index:90;
+	font-size:10px;
+	color: #f3cf6f;
+	text-shadow: black 2px 2px 2px;
+	opacity:0.8;
+}
+
+#desc {
+	position:absolute; 
+	top:90px;
+	left: -2px;
+	height:30px;
+	width: 120px;
+	text-align:center; 
+	z-index:90;
+	font-size:12px;
+	color: #f3cf6f;
+	text-shadow: black 2px 2px 2px;
+	opacity:1.0;
+	word-wrap: break-word; 
+	-webkit-transform : rotate(-90deg);
+}
+
+#DigitalClock {
+	position:absolute; 
+	top:40px; 
+	left:115px;
+	width:320px; 
+	height:50px;	
+	text-align:center; 
+	z-index:150;
+	font-weight: 900;
+	opacity:1.0;
+}
+
+#clock{
+	position: relative;
+	font-size: 16px;
+	color: #f3cf6f;
+	text-shadow: black 2px 2px 2px;
+	font-family:Digital;
+}
+
+#AnalogClock{	/* Container */
+	position: absolute;
+	top: -15px;
+	left:35px;
+	background-color:transparent;
+	width: 250px;
+	height: 250px;
+	opacity:1.0;
+	-webkit-transition : all 0.8s ;
+		}
+
+#ClockFace{
+	background: url('../Images/clockhands/ClockBG.png')0px 0px no-repeat;
+	position: absolute;
+	top:15px;
+	left:-35px;
+	background-color:transparent;
+	width:320px;
+	height: 568px;
+	background-size:320px 568px;
+	z-index: 25;
+}	
+
+#ClockGlossy{
+	background: url('../Images/clockhands/glossy.png')0px 0px no-repeat;
+	position: absolute;
+	top:15px;
+	left:-35px;
+	background-color:transparent;
+	width:320px;
+	height: 568px;
+	background-size:320px 568px;
+	z-index: 100;
+}		
+		
+#sechand {
+	background: url('../Images/clockhands/sechand.png')0px 0px no-repeat;
+	position: absolute;
+	background-color:transparent;
+	width: 250px;
+	height: 250px;
+	background-size:250px 250px;
+	z-index: 85;
+	}	
+	
+#hourhand {
+	background: url('../Images/clockhands/hourhand.png') 0px 0px no-repeat;
+	position: absolute;
+	background-color:transparent;
+	width: 250px;
+	height: 250px;
+	background-size:250px 250px;
+	z-index: 83;
+	}
+	
+#minhand {
+	background: url('../Images/clockhands/minhand.png') 0px 0px no-repeat;
+	position: absolute;
+	background-color:transparent;
+	width: 250px;
+	height: 250px;
+	background-size:250px 250px;
+	z-index: 84;
+	}
+	
+#node {
+	background: url('../Images/clockhands/node.png') 12.5px 33.5px no-repeat;
+	position: absolute;
+	top:15px;
+	left:100px;
+	width: 50px;
+	height: 220px;
+	background-color:transparent;
+	background-size:25px 110px;
+	z-index: 86;
+	}	
+
+#date {
+	position:absolute; 
+	top:65px;
+	left: 110px;
+	width:320px; 
+	height:30px; 
+	text-align:center; 
+	font-size:15px;
+	color: #f3cf6f;
+	text-shadow: black 2px 2px 2px;
+	font-family:Digital;
+	opacity:1.0;
+
+}
+
+#Day0Icon{
+	position:absolute;
+	height: 60px;
+	width: 60px;
+	top:132px;
+	left:255px;
+	z-index:90;
+	opacity:1.0;
+}
+
+#BigDay0Icon{
+	position:absolute;
+	width: 320px;
+	top:0px;
+	left:0px;
+	z-index:-11;
+	opacity:0.0;
+	-webkit-animation: fadein 2s linear 1 normal;
+	-webkit-animation-fill-mode: forwards;
+}
+
+
+#MoonIcon {
+	position:absolute;
+	top:127px;
+	left: 88px;
+	width:30px;
+	height:30px;
+	display:none;
+}
+
+#moonphase {
+	position:absolute; 
+	top:127px;
+	left: 32px;
+	width: 50px;
+	text-align:center; 
+	font-weight: normal; 
+	font-size:12px;
+	color: white;
+	text-shadow: black 0px 2px 2px;
+	display:none;
+}
+
+#woeid {
+	position: absolute;
+	top: 160px;
+	left: -32px;
+	width: 320px;
+	height: 22px;
+	text-align: right;
+	font-weight: lighter;
+	font-size:10px;
+	color: white;
+	text-shadow: 0px 0px 1px #000;
+	z-index:90;
+	display:none;
+}
+
+#zip {
+	position: absolute;
+	top: 173px;
+	left: -32px;
+	width: 320px;
+	height: 22px;
+	text-align: right;
+	font-weight: lighter;
+	font-size:10px;
+	color: white;
+	text-shadow: 0px 0px 1px #000;
+	z-index:90;
+	display:none;
+}
+
+#sunrise {
+	position:absolute; 
+	top:97px;
+	left: -32px;
+	width:320px; 
+	height:20px; 
+	text-align:right; 
+	font-weight: normal; 
+	font-size:12px;
+	color: white;
+	text-shadow: black 0px 2px 2px;
+	display:none;
+}
+
+#sunset {
+	position:absolute; 
+	top:109px;
+	left: -32px;
+	width:320px; 
+	height:20px; 
+	text-align:right; 
+	font-weight: normal; 
+	font-size:12px;
+	color: white;
+	text-shadow: black 0px 2px 2px;
+	display:none;
+}
+
+#lastupdate {
+	display:none;
+}
+
+#xmlupdate {
+	position:absolute; 
+	top:87px;
+	left: -32px;
+	width:320px; 
+	height:20px; 
+	text-align:right; 
+	font-weight: normal; 
+	font-size:10px;
+	color: white;
+	text-shadow: black 0px 2px 2px;
+	display:none;
+}
+
+#ExtendedInfo {
+	position: absolute;
+	height: 450px;
+	width: 320px;
+	top:40px;
+	left:0px;
+	z-index:90; 
+	display:none;	
+}
+
+#wind {
+	position: absolute;
+	top: 120px;
+	left: 32px;
+	width: 320px;
+	height: 22px;
+	text-align: left;
+	font-weight: lighter;
+	font-size:10px;
+	color: white;
+	text-shadow: 0px 0px 1px #000;
+}
+
+#pressure {
+	position: absolute;
+	top: 85px;
+	right: 32px;
+	width: 320px;
+	height: 22px;
+	text-align: right;
+	font-weight: lighter;
+	font-size:10px;
+	color: white;
+	text-shadow: 0px 0px 1px #000;
+}
+
+#rising {
+	position: absolute;
+	top: 95px;
+	right: -10px;
+	width: 160px;
+	height: 22px;
+	text-align: center;
+	font-weight: lighter;
+	font-size:10px;
+	color: white;
+	text-shadow: 0px 0px 1px #000;
+}
+
+#humidity {
+	position: absolute;
+	top: 107px;
+	right: 32px;
+	width: 320px;
+	height: 22px;
+	text-align: right;
+	font-weight: lighter;
+	font-size:10px;
+	color: white;
+	text-shadow: 0px 0px 1px #000;
+}
+
+#visibility {
+	position: absolute;
+	top: 133px;
+	left: 32px;
+	width: 320px;
+	height: 22px;
+	text-align: left;
+	font-weight: lighter;
+	font-size:10px;
+	color: white;
+	text-shadow: 0px 0px 1px #000;
+}
+
+#forecast {
+	position: absolute;
+	height: 100px;
+	width: 320px;
+	top:190px;
+	left:0px;
+	display:none;		
+}
+
+#Day1, #Day2, #Day3, #Day4, #Day5 {
+	position: relative;
+	top: -3px;
+	width : 50px;
+	font-weight: normal;
+	color: white;
+	text-shadow: black 0px 2px 2px;
+	font-size:10px;
+}
+
+#Day1Icon, #Day2Icon, #Day3Icon, #Day4Icon, #Day5Icon {
+	position: relative;
+	top: 0px;
+	width: 30px;
+	height: 30px;
+}
+
+#Day1HiLo, #Day2HiLo, #Day3HiLo, #Day4HiLo, #Day5HiLo {
+	position: relative;
+	top: -3px;
+	width: 50px;
+	color: white;
+	text-shadow: black 0px 2px 2px;
+	font-size:10px;
+}
+
+#hourlyFirst6 {
+    background-color: transparent;
+	position: absolute;
+	top: 255px;
+	left: 0px;
+	width : 320px;
+	height: 100px;
+	display:none;
+}
+
+#Hour1, #Hour2, #Hour3, #Hour4, #Hour5, #Hour6 {
+	position: relative;
+	top: -6px;
+	width : 45px;
+	font-weight: normal;
+	color: white;
+	text-shadow: black 0px 2px 2px;
+	font-size:10px;
+}
+
+#Hicon1, #Hicon2, #Hicon3, #Hicon4, #Hicon5, #Hicon6 {
+	position: relative;
+	top: -10px;
+	width: 25px;
+	height: 25px;
+}
+
+#Htemp1, #Htemp2, #Htemp3, #Htemp4, #Htemp5, #Htemp6 {
+	position: relative;
+	top: -6px;
+	width: 45px;
+	color: white;
+	text-shadow: black 0px 2px 2px;
+	font-size:10px;
+}
+
+#Hpop1, #Hpop2, #Hpop3, #Hpop4, #Hpop5, #Hpop6 {
+	position: relative;
+	top: -6px;
+	width: 45px;
+	color: white;
+	text-shadow: black 0px 2px 2px;
+	font-size:10px;
+}
+
+
+#hourlyLast6 {
+    background-color: transparent;
+	position: absolute;
+	top: 330px;
+	left: 0px;
+	width : 320px;
+	height: 100px;
+	display:none;
+}
+
+#Hour7, #Hour8, #Hour9, #Hour10, #Hour11, #Hour12 {
+	position: relative;
+	top: -6px;
+	width : 45px;
+	font-weight: normal;
+	color: white;
+	text-shadow: black 0px 2px 2px;
+	font-size:10px;
+}
+
+#Hicon7, #Hicon8, #Hicon9, #Hicon10, #Hicon11, #Hicon12 {
+	position: relative;
+	top: -10px;
+	width: 25px;
+	height: 25px;
+}
+
+#Htemp7, #Htemp8, #Htemp9, #Htemp10, #Htemp11, #Htemp12 {
+	position: relative;
+	top: -6px;
+	width: 45px;
+	color: white;
+	text-shadow: black 0px 2px 2px;
+	font-size:10px;
+}
+
+#Hpop7, #Hpop8, #Hpop9, #Hpop10, #Hpop11, #Hpop12 {
+	position: relative;
+	top: -6px;
+	width: 45px;
+	color: white;
+	text-shadow: black 0px 2px 2px;
+	font-size:10px;
+}
+
+#Gears{
+	position: absolute;
+	top: 10px;
+	left:35px;
+	background-color:transparent;
+	width: 250px;
+	height: 250px;
+	opacity:1.0;
+	-webkit-transition : all 0.8s ;
+}
+
+#GearsBG{
+	background: url('../Images/Gears/GearsBG.png')0px 0px no-repeat;
+	position: absolute;
+	top: 0px;
+	left:px;
+	background-color:transparent;
+	width: 250px;
+	height: 250px;
+	background-size:250px 250px;
+	opacity:1.0;
+	z-index:30;
+	-webkit-transition : all 0.8s ;
+}
+
+#GearsMask{
+	position: absolute;
+	background-color:transparent;
+	top: 0px;
+	left:0px;
+	width: 250px;
+	height: 250px;
+	z-index:31;
+	-webkit-mask-image : url('../Images/Gears/mask.png');
+    -webkit-mask-size: 250px 250px;
+}
+
+#GearsContainer{
+	position: absolute;
+	top: 0px;
+	left:0px;
+	background-color:transparent;
+	width: 250px;
+	height: 250px;
+	z-index:32;
+	opacity: 1.0;
+	}
+
+#Gears1{
+	background: url('../Images/Gears/Gears.png')0px 0px no-repeat;
+	position: absolute;
+	top: 10px;
+	left:15px;
+	background-color:transparent;
+	width: 220px;
+	height: 220px;
+	background-size:220px 220px;
+	opacity:1.0;
+	z-index:33;
+}
+
+#Gears2{
+	background: url('../Images/Gears/Gears.png')0px 0px no-repeat;
+	position: absolute;
+	top: 27px;
+	left:57px;
+	background-color:transparent;
+	width: 180px;
+	height: 180px;
+	background-size:180px 180px;
+	opacity:1.0;
+	z-index:33;
+}
+
+#Gears3{
+	background: url('../Images/Gears/Gears.png')0px 0px no-repeat;
+	position: absolute;
+	top: 46px;
+	left:52px;
+	background-color:transparent;
+	width: 180px;
+	height: 180px;
+	background-size:180px 180px;
+	opacity:1.0;
+	z-index:33;
+}
+
+#Gears4{
+	background: url('../Images/Gears/Gears.png')0px 0px no-repeat;
+	position: absolute;
+	top: 40px;
+	left:30px;
+	background-color:transparent;
+	width: 150px;
+	height: 150px;
+	background-size:150px 150px;
+	opacity:1.0;
+	z-index:33;
+}
+
+#Gears5{
+	background: url('../Images/Gears/Gears.png')0px 0px no-repeat;
+	position: absolute;
+	top: 44px;
+	left:18px;
+	background-color:transparent;
+	width: 180px;
+	height: 180px;
+	background-size:180px 180px;
+	opacity:1.0;
+	z-index:33;
+}
+

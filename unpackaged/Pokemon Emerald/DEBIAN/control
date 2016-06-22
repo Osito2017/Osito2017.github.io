@@ -1,0 +1,10 @@
+Name: Pokemon Emerald
+Package: com.osito.pkmemerald
+Priority: optional
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), com.osito.gba4ios
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Pokemon Emerald ROM for GBA4IOS
+Maintainer: TheBigCheese2017
+Author: Osito
+Section: Games

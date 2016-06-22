@@ -1,0 +1,13 @@
+Name: Stairs
+Package: com.osito.stairs
+Priority: optional
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), com.fidele007.hotdog, com.alcovedevteam.fuse
+Architecture: iphoneos-arm
+Description: Titled like stairs
+Maintainer: TheBigCheese2017
+Author: Osito
+Section: Themes (Lockscreen Setup)
+Provides: com.osito.leftsided, com.osito.rightsided, com.osito.corneredgeo, com.osito.rightsidedgeo, com.osito.cataracs, com.osito.fused, com.osito.sandy
+Conflicts: com.osito.leftsided, com.osito.rightsided, com.osito.corneredgeo, com.osito.rightsidedgeo, com.osito.cataracs, com.osito.fused, com.osito.sandy
+Replaces: com.osito.leftsided, com.osito.rightsided, com.osito.corneredgeo, com.osito.rightsidedgeo, com.osito.cataracs, com.osito.fused, com.osito.sandy
+Version: 1.0

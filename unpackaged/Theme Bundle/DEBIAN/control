@@ -1,0 +1,10 @@
+Author: Osito
+Maintainer: TheBigCheese2017
+Name: Theme Bundle
+Package: com.osito.themesbundle
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.anemonetheming.anemone
+Section: Themes
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Compiled list of favorite jailbreak themes. Just add more when you find more.
+Conflicts: com.osito.gothamglyphscc, com.osito.lotus, com.osito.lotusclock, com.osito.lollipopmessages, com.osito.lollipopmessagesalt

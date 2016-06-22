@@ -1,0 +1,13 @@
+Name: Sandy
+Package: com.osito.sandy
+Priority: optional
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), com.fidele007.hotdog, com.alcovedevteam.fuse
+Architecture: iphoneos-arm
+Description: This is absolutley stunning. Please install the Geo Sans Light Font to make it wonderful
+Maintainer: TheBigCheese2017
+Author: Osito
+Section: Themes (Lockscreen Setup)
+Version: 1.0
+Provides: com.osito.leftsided, com.osito.rightsided, com.osito.cataracs, com.osito.i9setupfori8, com.osito.cornered, com.osito.corneredgeo, com.osito.rightsidedgeo, com.osito.stairs, com.osito.fused, com.osito.clearall
+Conflicts: com.osito.leftsided, com.osito.rightsided, com.osito.cataracs, com.osito.i9setupfori8, com.osito.cornered, com.osito.corneredgeo, com.osito.rightsidedgeo, com.osito.stairs, com.osito.fused, com.osito.clearall
+Removes: com.osito.leftsided, com.osito.rightsided, com.osito.cataracs, com.osito.i9setupfori8, com.osito.cornered, com.osito.corneredgeo, com.osito.rightsidedgeo, com.osito.stairs, com.osito.fused, com.osito.clearall

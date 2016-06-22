@@ -1,0 +1,9 @@
+Author: Osito
+Maintainer: TheBigCheese2017
+Name: Gotham Glyphs Theme
+Package: com.osito.gothamtheme
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, winterboard
+Section: Themes
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Gotham Glyphs Theme for Winterboard

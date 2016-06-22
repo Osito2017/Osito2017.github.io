@@ -1,0 +1,14 @@
+Author: Jared
+Maintainer: TheBigCheese2017
+Name: Lotus Calendar
+Package: com.osito.lotuscalendar
+Depends: mobilesubstrate (>= 0.9.5000), applist, winterboard, pincrush
+Section: Themes
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Best calendar
+
+
+
+
+

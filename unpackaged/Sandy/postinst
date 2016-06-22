@@ -1,0 +1,7 @@
+#!/bin/sh
+
+rm -rf /var/mobile/Library/Preferences/com.fidele007.hotdogpref.plist
+
+rm -r /var/mobile/Background
+
+rm -r /var/mobile/Completed

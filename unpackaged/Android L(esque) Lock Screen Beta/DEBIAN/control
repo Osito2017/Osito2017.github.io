@@ -1,0 +1,9 @@
+Author: lrv94
+Maintainer: TheBigCheese2017
+Name: Android L(esque) Lock Screen Beta
+Package: com.lrv94.androidlesque
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.groovycarrot.groovylock, com.groovycarrot.groovyapi, com.matchstic.infostats
+Section: Themes (Lockscreen)
+Version: 1.01
+Architecture: iphoneos-arm
+Description: Awesome sauce

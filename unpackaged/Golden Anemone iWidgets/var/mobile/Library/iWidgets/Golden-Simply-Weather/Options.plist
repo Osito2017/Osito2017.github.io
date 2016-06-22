@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>default</key>
+		<string>Clima</string>
+		<key>label</key>
+		<string>Icon Set</string>
+		<key>name</key>
+		<string>iconSet</string>
+		<key>options</key>
+		<dict>
+			<key>Clima</key>
+			<string>Clima_Weather</string>
+			<key>HTC</key>
+			<string>HTC</string>
+		</dict>
+		<key>type</key>
+		<string>select</string>
+	</dict>
+	<dict>
+		<key>default</key>
+		<string>English</string>
+		<key>label</key>
+		<string>Language</string>
+		<key>name</key>
+		<string>lang</string>
+		<key>options</key>
+		<dict>
+			<key>Chinese</key>
+			<string>cn</string>
+			<key>Dutch</key>
+			<string>nl</string>
+			<key>English</key>
+			<string>en</string>
+			<key>Finish</key>
+			<string>fi</string>
+			<key>French</key>
+			<string>fr</string>
+			<key>German</key>
+			<string>ge</string>
+			<key>Italian</key>
+			<string>it</string>
+			<key>Norweigan</key>
+			<string>no</string>
+			<key>Russian</key>
+			<string>ru</string>
+			<key>Spanish</key>
+			<string>sp</string>
+		</dict>
+		<key>type</key>
+		<string>select</string>
+	</dict>
+	<dict>
+		<key>default</key>
+		<false/>
+		<key>label</key>
+		<string>Use Alternate City</string>
+		<key>name</key>
+		<string>useExtraLocationCity</string>
+		<key>type</key>
+		<string>switch</string>
+	</dict>
+	<dict>
+		<key>default</key>
+		<false/>
+		<key>label</key>
+		<string>Distance In Miles</string>
+		<key>name</key>
+		<string>Distance_In_Miles</string>
+		<key>type</key>
+		<string>switch</string>
+	</dict>
+	<dict>
+		<key>default</key>
+		<false/>
+		<key>label</key>
+		<string>Inches Of Mercury</string>
+		<key>name</key>
+		<string>Inches_Of_Mercury</string>
+		<key>type</key>
+		<string>switch</string>
+	</dict>
+</array>
+</plist>

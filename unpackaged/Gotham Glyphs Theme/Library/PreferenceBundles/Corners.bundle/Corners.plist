@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.irepo.corners</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Control Center Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.irepo.corners</string>
+			<key>key</key>
+			<string>ccenabled</string>
+			<key>label</key>
+			<string>Enable for CC</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>label</key>
+			<string>Corner Radius</string>
+		</dict>
+		<dict>
+            <key>cell</key>
+            <string>PSSliderCell</string>
+            <key>isNative</key>
+				<true/>
+            <key>default</key>
+            <integer>25</integer>
+            <key>min</key>
+            <integer>0</integer>
+        	<key>max</key>
+            <integer>50</integer>
+            <key>defaults</key>
+            <string>com.irepo.corners</string>
+            <key>key</key>
+            <string>ccradius</string>
+            <key>label</key>
+            <string>Corner Radius</string>  
+            <key>showValue</key>
+            <true/>      
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.irepo.corners</string>
+			<key>key</key>
+			<string>dark</string>
+			<key>label</key>
+			<string>Remove Darkening View</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Notification Center Settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.irepo.corners</string>
+			<key>key</key>
+			<string>ncenabled</string>
+			<key>label</key>
+			<string>Enable for NC</string>
+		</dict>
+		<dict>
+		<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>label</key>
+			<string>Corner Radius</string>
+		</dict>
+		<dict>
+            <key>cell</key>
+            <string>PSSliderCell</string>
+            <key>isNative</key>
+				<true/>
+            <key>default</key>
+            <integer>25</integer>
+            <key>min</key>
+            <integer>0</integer>
+        	<key>max</key>
+            <integer>50</integer>
+            <key>defaults</key>
+            <string>com.irepo.corners</string>
+            <key>key</key>
+            <string>ncradius</string>
+            <key>label</key>
+            <string>Corner Radius</string>  
+            <key>showValue</key>
+            <true/>      
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Corners</string>
+</dict>
+</plist>

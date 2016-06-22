@@ -1,0 +1,9 @@
+Author: Osito
+Maintainer: TheBigCheese2017
+Name: Keyboard Essentials
+Package: com.osito.keyboardessentials
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.fidele007.emojikey, com.gnos.bloard, com.iky1e.swipeselection, com.gsquared.senddelay, org.thebigboss.smoothcursor, org.mustafaa.keyshortcut
+Section: Tweaks
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Includes must have keyboard tweaks

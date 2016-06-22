@@ -1,0 +1,12 @@
+Author: Osito 
+Maintainer: TheBigCheese2017
+Name: Fused
+Package: com.osito.fused
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.modmyi.kitkatbattery, com.alcovedevteam.fuse, com.fidele007.hotdog, com.jared.ggmediaplayer, com.phoenix.bars
+Section: Themes (Lockscreen Setup)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Check the screenshots
+Provides: com.osito.leftsided, com.osito.rightsided, com.osito.stairs, com.osito.rightsidedgeo, com.osito.cataracs, com.osito.i9setupfori8, com.osito.corneredgeo, com.osito.sandy
+Conflicts: com.osito.leftsided, com.osito.rightsided, com.osito.stairs, com.osito.rightsidedgeo, com.osito.cataracs, com.osito.i9setupfori8, com.osito.corneredgeo, com.osito.sandy
+Replaces: com.osito.leftsided, com.osito.rightsided, com.osito.stairs, com.osito.rightsidedgeo, com.osito.cataracs, com.osito.i9setupfori8, com.osito.corneredgeo, com.osito.sandy

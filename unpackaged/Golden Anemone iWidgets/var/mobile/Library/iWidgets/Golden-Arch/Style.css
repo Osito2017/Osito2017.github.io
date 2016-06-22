@@ -1,0 +1,77 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-weight:450;
+	Text-shadow: black 0px 1px 1px;
+	font-family:Helvetica;
+}
+
+@font-face {
+	font-family: ARBONNIE;
+	src: url(Images/ARBONNIE.ttf);
+
+}
+
+
+#Clock{
+	position:absolute; top:68px; left:35px; width:320px; height:50px; text-align:left; z-index:100;
+	font-size:20px;
+}
+#hour{color:#f1d984;}
+#puntos{color:#f1d984;}
+#minute{color:#f1d984;}
+
+#ampm{
+	position:absolute; top:110px; left:5px; width:320px; height:50px; text-align:left; z-index:100;
+	font-size:7px;
+	text-transform:uppercase;
+	color:#f1d984;
+	font-weight:900;
+}
+
+#weekday{
+	position:absolute; top:45px; left:-20px; width:320px; height:50px; text-align:right; z-index:100;
+	font-size:14px;
+	text-transform:uppercase;
+	color:#f1d984;
+	letter-spacing:0.6em;
+}
+
+#Calendar{
+	position:absolute; top:68px; left:-27px; width:320px; height:50px; text-align:right; z-index:100;
+	font-size:12px;
+	text-transform:capitalize;
+	letter-spacing:0.1em;
+}
+#date{color:#7e703f;}
+#month{color:#7e703f;}
+#year{color:#7e703f;}
+
+#temp{
+	position:absolute; top:68px; left:150px; width:320px; height:50px; text-align:left; z-index:100;
+	font-size:12px;
+	color:#7e703f;
+}
+
+#weatherIcon{
+       position:absolute; top:10px; left:20px; width:100px; z-index:100;
+}
+
+
+#fondo{
+	position:absolute; top:50px; left:0px; width:640px; height:100px; z-index:-89;
+	background-color: white;
+	opacity: 0.0;
+	-webkit-border-radius:0;
+}
+#fondo1{
+	position:absolute; top:30px; left:260px; width:160px; height:150px; z-index:-89;
+	background-color: black;
+	opacity: 0.0;
+	-webkit-border-radius:65;
+}
+#fondo2{display:none;
+	position:absolute; top:0px; left:50px; width:220px; height:25px; z-index:-99;
+	background-color: grey;
+	opacity: 0.0;
+}

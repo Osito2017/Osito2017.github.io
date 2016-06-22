@@ -1,0 +1,9 @@
+Package: com.rileytestut.gba4ios
+Name: GBA4iOS
+Version: 2.1~beta1
+Architecture: iphoneos-arm
+Description: A Gameboy Advance emulator for iOS
+Homepage: http://gba4iosapp.com
+Maintainer: Abraham Levine
+Author: Riley Testut
+Section: Games

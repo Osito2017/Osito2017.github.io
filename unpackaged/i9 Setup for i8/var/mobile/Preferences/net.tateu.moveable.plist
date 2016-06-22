@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>center</key>
+	<dict>
+		<key>data</key>
+		<array>
+			<string>00 Time</string>
+		</array>
+	</dict>
+	<key>default</key>
+	<dict>
+		<key>data</key>
+		<array>
+			<string>02 Airplane</string>
+			<string>05 DataNetwork (WiFi)</string>
+			<string>13 Alarm</string>
+			<string>23 Activity</string>
+			<string>01 QuietMode (DND)</string>
+			<string>09 NotCharging</string>
+			<string>11 Bluetooth</string>
+			<string>19 AirPlay</string>
+			<string>21 VPN</string>
+			<string>16 Location</string>
+			<string>17 RotationLock</string>
+			<string>22 CallForward</string>
+			<string>20 Siri</string>
+			<string>29 Tethering</string>
+			<string>10 BluetoothBattery</string>
+			<string>24 ThermalColor</string>
+			<string>12 TTY</string>
+			<string>32 libstatusbar spacer 1</string>
+			<string>33 libstatusbar spacer 2</string>
+		</array>
+	</dict>
+	<key>enableLockScreenTime</key>
+	<false/>
+	<key>enabled</key>
+	<true/>
+	<key>hidden</key>
+	<dict>
+		<key>data</key>
+		<array>
+			<string>04 Carrier</string>
+		</array>
+	</dict>
+	<key>hideBattery</key>
+	<false/>
+	<key>left</key>
+	<dict>
+		<key>data</key>
+		<array>
+			<string>03 SignalStrength (Cellular)</string>
+		</array>
+	</dict>
+	<key>profileSaved</key>
+	<false/>
+	<key>right</key>
+	<dict>
+		<key>data</key>
+		<array>
+			<string>07 Battery</string>
+			<string>08 BatteryPercent</string>
+		</array>
+	</dict>
+	<key>schemaVersion</key>
+	<string>1.1</string>
+</dict>
+</plist>

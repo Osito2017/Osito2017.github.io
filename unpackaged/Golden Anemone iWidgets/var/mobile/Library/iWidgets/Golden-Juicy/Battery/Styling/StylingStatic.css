@@ -1,0 +1,62 @@
+
+@font-face {font-family: "Default1"; src: url('../../Fonts/Roboto-Light.ttf');} 
+
+
+
+body {
+position: absolute;
+background-color:transparent;
+width: 120px;
+height: 120px;
+top:0px;
+left:0px;}
+
+#LevelDisplay{
+display: normal;
+position: absolute;
+text-align: center;
+width: 100px;
+height: 100px;
+line-height:40px; 
+top: 0px;
+left: 3px;
+font-family: Default1;
+font-size: 24px;
+font-weight: 300; 
+color: #7E703F;
+text-shadow: 0px 1px 0px #C1AB60;
+opacity: 1;}
+
+#StateDisplay{
+display: normal;
+position: absolute;
+text-align: center;
+width: 90px;
+height: 50px;
+line-height:40px; 
+top: 18px;
+left: 7px;
+font-family: Default1;
+font-size: 10px;
+font-weight: 300;
+color: #F1D984;
+opacity: 1;}
+
+#BatteryImage{
+display: none;
+position: absolute;
+top:1px;
+left:24px;
+width: 50px;
+height: 50px;
+opacity: 1.0;}
+
+#BatteryText{
+display: none;
+position: absolute;
+top:137px;
+left:15px;
+width: 70px;
+height: 35px;
+opacity: 1;}
+

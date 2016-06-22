@@ -1,0 +1,360 @@
+
+     /* --RKO1195-- */ 
+
+
+
+body{
+margin:0;
+padding:0;
+top:0px;
+left:0px;
+width:320px; 
+height:160px;
+font-family:Helvetica;
+}
+
+
+* {
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+}
+
+
+.FontColorNight {
+color: #e9cf89;
+}
+
+.FontColorDay {
+color: #e9cf89;
+}
+
+.FontColorRed {
+color: #e9cf89;
+}
+
+
+@-webkit-keyframes fadein { 
+ 0% { opacity : 0;}
+ 50% { opacity : 0;}
+ 100% { opacity : 1.0;}
+}
+
+
+#Frame{
+position:absolute;
+top:0px;
+left:0px;
+width:310px;
+height:200px;
+z-index:20;
+}
+
+#WeatherInfo{
+position:absolute;
+top:0px;
+left:0px;
+width:320px;
+opacity:0;
+z-index:60;
+-webkit-animation: info 2s linear 1 normal;
+-webkit-animation-fill-mode: forwards; 
+}
+@-webkit-keyframes info {
+	0% {opacity : 0.0;}
+	50% {opacity : 0.0;}
+	100% {opacity : 1.0;}
+}
+
+
+#sunriseIMG{
+position:absolute;
+top:137px; 
+left:25px;
+width:23px;
+z-index:90; 
+display:none;
+}
+
+
+#sunsetIMG{
+position:absolute;
+top:137px; 
+right:6px;
+width:23px;
+z-index:90; 
+display:none;
+}
+
+
+#sunrise{
+position:absolute; 
+top:120px; 
+left:40px; 
+width:320px;
+height:20px;  
+text-align:left;
+font-weight:200; 
+font-size:10px;
+font-family:Helvetica;
+text-shadow: 1px 1px 1px black;
+display:none;
+}
+
+
+#sunset{
+position:absolute;
+top:120px; 
+right:40px;
+width:320px;
+height:20px; 
+text-align:right;
+font-weight:200;
+font-family:Helvetica;
+font-size:10px;
+text-shadow:-0px 1px 1px black;
+display:none;
+}
+
+
+#clock{
+position:absolute;
+top:183px; 
+left:0px; 
+width:320px; 
+height:480px; 
+text-align:center; 
+font-weight:200; 
+font-size:17px;
+font-family:Helvetica; 
+text-shadow: 1px 1px 1px black;
+z-index:90;
+display:none;
+}
+
+
+#date{
+position:absolute;
+top:201px;
+left:0px;
+width:320px;
+height:480px;
+text-align:center;
+font-family:Helvetica;
+font-weight:normal;
+font-size:15px;
+text-shadow: 1px 1px 1px black;
+text-transform: normal;
+z-index:90;
+display:none;
+}
+
+
+#city{
+position:absolute;
+top:141px;
+left:40px; 
+width:320px; 
+height:60px;
+text-align:left;
+font-weight:200;
+font-size:14px;
+text-shadow: -0px 1px 1px black;
+text-transform:capitalize;
+font-family: Helvetica;
+}
+
+
+#neighborhood{
+position:absolute;
+top:141px; 
+left:40px; 
+width:320px; 
+height:60px;
+text-align:left;
+font-weight:200;
+font-size:14px;
+text-shadow: -0px 1px 1px black;
+text-transform:capitalize;
+font-family: Helvetica;
+display:none;
+}
+
+
+#hi{
+position:absolute;
+top:70px;
+right:40px;
+width:320px;
+height:60px;
+text-align:right;
+font-weight:200; 
+font-size:10px;
+text-shadow: 0px 1px 1px black;
+font-family: Helvetica;
+display:none;
+}
+
+
+#lo{
+position:absolute;
+top:83px;
+right:40px;
+width:320px;
+height:60px;
+text-align:right;
+font-weight:200;
+font-size:10px;
+font-family: Helvetica;
+text-shadow: 0px 1px 1px black;
+display:none;
+}
+
+
+#temp{
+position:absolute;
+top:141px;
+right:50px;
+width:320px;
+height:480px;
+text-align:right;
+font-weight:300; 
+font-size:14px;
+text-shadow: -0px 1px 1px black;
+font-family:Helvetica;
+}
+
+
+#desc{
+position:absolute;
+top:70px;
+left:40px;
+width:320px;
+height:60px;
+text-align:left;
+font-weight:200;
+font-size:10px;
+text-shadow: 0px 1px 1px black;
+font-family:Helvetica;
+text-transform:capitalize;    
+display:none;
+}
+
+
+#coordinates{
+position:absolute;
+top:15px;
+left:0px;
+width:320px;
+height:60px;
+text-align:center;
+font-size:11px;
+font-family:Helvetica;
+font-weight:bold;
+text-shadow: 0px 1px 1px black;
+display:none;
+}
+
+
+#xmlupdate{
+position:absolute;
+top:108px;
+right:40px;
+width:320px;
+height:20px;
+text-align:right;
+font-weight:200;
+font-size:10px;
+text-shadow: 0px 1px 1px black;
+display:none;
+}
+
+
+#wind{
+position:absolute; 
+top:83px;
+left:40px;
+width:320px;
+height:20px;
+text-align:left;
+font-family:Helvetica;
+font-weight:200;
+text-shadow: 0px 1px 1px black;
+font-size:10px;
+display:none;
+}
+
+
+#visibility{
+position:absolute;
+top:95px;
+left:40px;
+width:320px;
+height:20px;
+text-align:left;
+font-family:Helvetica;
+font-weight:200;
+text-shadow:-0px 1px 1px black;
+font-size:10px;
+display:none;
+}
+
+
+#pressure{
+position:absolute;
+top:108px;
+left:40px;
+width:320px;
+height:20px;
+text-align:left;
+font-family:Helvetica;
+font-weight:200;
+text-shadow:-0px 1px 1px black;
+font-size:10px;
+display:none;
+}
+
+
+#humidity{
+position:absolute;
+top:95px;
+right:40px;
+width:320px;
+height:60px;
+text-align:right;
+font-weight:200;
+font-size:10px;
+text-shadow:0px 1px 0px black;
+font-family:Helvetica;
+display:none;
+}
+
+
+#Day0Icon{
+position:absolute; 
+top:492px;
+left: 246px;
+height:24px;
+width: 24px;
+z-index:50;
+display:none;
+}
+
+
+#weatherWall{
+position:absolute;
+top:50px;
+left:30px;
+height:120px;
+width:265px;
+z-index:-60;
+opacity:0;
+-webkit-animation: fadein;
+-webkit-animation-duration: 3s;
+-webkit-animation-iteration-count: 1;
+-webkit-animation-direction: normal;
+-webkit-animation-timing-function: ease-in;
+-webkit-animation-fill-mode: forwards;
+}
+
+
+ 

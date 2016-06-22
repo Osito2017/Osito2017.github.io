@@ -1,0 +1,9 @@
+Author: Osito
+Maintainer: TheBigCheese2017
+Name: System Wide Tweaks
+Package: com.osito.systemwide
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.alexzielenski.tinybar, com.dantesieg.rubik, com.marcosinghof.NoSlowAnimations, com.noeliel.cheesecake, libactivator, com.cpdigitaldarkroom.ensemble, com.skylerk99.switchertweak
+Section: Tweaks
+Version: 1.0
+Architecture: iphoneos-arm
+Description: A compilation of some must have system wide tweaks

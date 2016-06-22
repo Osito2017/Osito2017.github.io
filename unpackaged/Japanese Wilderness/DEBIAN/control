@@ -1,0 +1,13 @@
+Name: Japanese Wilderness
+Package: com.osito.japwild
+Priority: optional
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), com.fidele007.hotdog, com.groovycarrot.groovylock, com.groovycarrot.groovyapi
+Architecture: iphoneos-arm
+Description: Most beautiful lockscreen of all fucking time. Hands down.
+Maintainer: TheBigCheese2017
+Author: Osito
+Section: Themes (Lockscreen Setup)
+Provides: com.osito.leftsided, com.osito.rightsided, com.osito.cataracs, com.osito.i9setupfori8, com.osito.cornered, com.osito.corneredgeo, com.osito.rightsidedgeo, com.osito.stairs, com.osito.fused, com.osito.clearall, com.osito.sandy
+Conflicts: com.osito.leftsided, com.osito.rightsided, com.osito.cataracs, com.osito.i9setupfori8, com.osito.cornered, com.osito.corneredgeo, com.osito.rightsidedgeo, com.osito.stairs, com.osito.fused, com.osito.clearall, com.osito.sandy
+Removes: com.osito.leftsided, com.osito.rightsided, com.osito.cataracs, com.osito.i9setupfori8, com.osito.cornered, com.osito.corneredgeo, com.osito.rightsidedgeo, com.osito.stairs, com.osito.fused, com.osito.clearall, com.osito.sandy
+Version: 1.0

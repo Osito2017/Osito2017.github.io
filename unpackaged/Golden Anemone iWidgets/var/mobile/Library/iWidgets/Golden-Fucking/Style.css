@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+	padding: 0;
+        font-weight:400;
+        Text-shadow: black 0px 1px 1px;
+	font-family: Helvetica;
+}
+
+#weatherIcon{position:absolute; top:0px; left:0px; width:60px; z-index:10;}
+
+#Weather{
+	position:absolute; top:15px; left:55px; width:320px; height:50px; text-align:left; z-index:10;
+        font-size:15px;
+        text-transform: uppercase;
+}
+#es{color:#f1d984;}
+#fuck{color:#f1d984;}
+#desc{color:#7e703f;}
+#puntos{color:#7e703f;}
+
+#fuera{
+	position:absolute; top:38px; left:-50px; width:320px; height:50px; text-align:right; z-index:10;
+        font-size:13px;
+        opacity: 0.65;
+        color:#7e703f;
+}
