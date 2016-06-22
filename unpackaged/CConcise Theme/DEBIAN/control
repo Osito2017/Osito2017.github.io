@@ -1,0 +1,9 @@
+Author: Joel-49
+Maintainer: TheBigCheese2017
+Name: CConcise
+Package: com.osito.cconcise
+Depends: mobilesubstrate (>= 0.9.5000), winterboard
+Section: Themes (Control Center)
+Version: 1.0
+Description: A very minimalistic control center experience
+Architecture: iphoneos-arm
